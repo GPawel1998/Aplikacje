@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DodPytanie"
+    tools:showIn="@layout/activity_dod_pytanie">
+
+    <EditText
+        android:id="@+id/pytanieText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="Pytanie"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/odpText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Odpowiedź 1"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/pytanieText"
+        app:layout_constraintTop_toBottomOf="@+id/pytanieText" />
+
+    <EditText
+        android:id="@+id/odpText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Odpowiedź 2"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/odpText1"
+        app:layout_constraintTop_toBottomOf="@+id/odpText1" />
+
+    <EditText
+        android:id="@+id/odpText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Odpowiedź 3"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/odpText2"
+        app:layout_constraintTop_toBottomOf="@+id/odpText2" />
+
+    <Button
+        android:id="@+id/zapiszPytanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:onClick="zapiszPytanie"
+        android:text="Dodaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/odpText3" />
+</android.support.constraint.ConstraintLayout>

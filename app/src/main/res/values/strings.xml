@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aplikacja</string>
+    <string name="title_activity_gra">Gra</string>
+    <string name="title_activity_dod_pytanie">DodPytanie</string>
+    <string name="title_activity_nowa_gra">NowaGra</string>
+</resources>

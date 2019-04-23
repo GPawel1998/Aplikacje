@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1082301734455",
+    "firebase_url": "https://pytan-f9eb9.firebaseio.com",
+    "project_id": "pytan-f9eb9",
+    "storage_bucket": "pytan-f9eb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082301734455:android:9fde660a1900ea6e",
+        "android_client_info": {
+          "package_name": "com.example.aplikacja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082301734455-jgn1haenqk4l3g1hfau74k6k415rd22h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlv9GKJFZsvzQIEizTJHH--2auZfQfRlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
